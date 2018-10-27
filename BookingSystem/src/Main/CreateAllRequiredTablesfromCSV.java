@@ -20,6 +20,8 @@ public class CreateAllRequiredTablesfromCSV {
 				+ " age INTEGER, " + " mobile VARCHAR(255), " + " PRIMARY KEY ( staff_id ))");
 		CreateTables.createTable("SCREEN", "(screen_id INTEGER not NULL, " + " rows_number INTEGER not NULL, "
 				+ " seats INTEGER not NULL, " + " PRIMARY KEY ( screen_id ))");
+		CreateTables.createTable("RESERVATION", "(ticket_id INTEGER not NULL, " + " mobile_number INTEGER not NULL, "
+				+ " screen_id INTEGER not NULL, " +" timing INTEGER not NULL, " +" row_id INTEGER not NULL, "+" seat_id INTEGER not NULL, " + " PRIMARY KEY (ticket_id ))");
 
 	}
 }

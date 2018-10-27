@@ -18,7 +18,7 @@ public class AddMultiplexCSVtoDatabase {
 	public static void addMultiplexCSVtoDatabase(String csvfileloc) {
 		LinkedList<MultiplexTable> multiplexTables = readMultiplexEntriesFromCSV(csvfileloc);
 		for (MultiplexTable mlt : multiplexTables) {
-			System.out.println(mlt);
+//			System.out.println(mlt);
 		}
 	}
 

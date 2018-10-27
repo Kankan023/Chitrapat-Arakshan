@@ -29,7 +29,7 @@ public class AddAllCSVtoDB {
 		String showsCsvLoc = (prop.getProperty("showsCsvLoc"));
 		String screenFileLoc = (prop.getProperty("screenCsvLoc"));
 		String staffFileLoc = (prop.getProperty("staffCsvLoc"));
-		System.out.println(showsCsvLoc);
+//		System.out.println(showsCsvLoc);
 
 		AddMovieCSVtoDatabase.addMovieCSVtoDatabase(movieFileLoc);
 		AddMultiplexCSVtoDatabase.addMultiplexCSVtoDatabase(multiplexFileLoc);

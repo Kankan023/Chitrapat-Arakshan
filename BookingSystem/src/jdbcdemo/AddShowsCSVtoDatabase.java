@@ -17,7 +17,7 @@ public class AddShowsCSVtoDatabase {
 	public static void addShowsCSVtoDatabase(String csvfileloc) {
 		LinkedList<ShowsTable> priceTables = readPriceEntriesFromCSV(csvfileloc);
 		for (ShowsTable pt : priceTables) {
-			System.out.println(pt);
+//			System.out.println(pt);
 		}
 	}
 	

@@ -17,7 +17,7 @@ public class AddScreenCSVtoDatabase {
 	public static void addScreenCSVtoDatabase(String csvfileloc) {
 		LinkedList<ScreenTable> screenTables = readScreenEntriesFromCSV(csvfileloc);
 		for (ScreenTable sct : screenTables) {
-			System.out.println(sct);
+//			System.out.println(sct);
 		}
 	}
 	

@@ -17,7 +17,7 @@ public class AddMovieCSVtoDatabase {
 	public static void addMovieCSVtoDatabase(String csvfileloc) {
 		LinkedList<MovieTable> movieTables = readMovieEntriesFromCSV(csvfileloc);
 		for (MovieTable mt : movieTables) {
-			System.out.println(mt);
+//			System.out.println(mt);
 		}
 	}
 

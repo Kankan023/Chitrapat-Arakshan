@@ -1,6 +1,7 @@
 package jdbcdemo;
 
 import java.io.BufferedReader;
+
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -17,7 +18,7 @@ public class AddStaffCSVtoDatabase {
 	public static void addStaffCSVtoDatabase(String csvfileloc) {
 		LinkedList<StaffTable> staffTables = readStaffEntriesFromCSV(csvfileloc);
 		for (StaffTable st : staffTables) {
-			System.out.println(st);
+//			System.out.println(st);
 		}
 	}
 
