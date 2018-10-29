@@ -1,0 +1,13 @@
+To execute movie ticket booking system, there are steps given. Befor that there are assumptions which we take when we have designed this system
+
+Assumptions:
+1. This system is for one multiplex with many screens in it.
+2. We have not added authentication scenerio here, but we can integrate it here. 
+3. We have considered a person in movie ticket booking room will handle this system.
+4. Payment system is also excluded here, but we can implement easily with this system.
+5. To retrieve data from reservation table, there is problem we are working on that. We will update code with this soon.
+
+Steps:
+
+1. First update movieticketbookingsystem.properties file with appropriate file locations and username password for database.
+2. run TicketBooking file from main package and follow instructions.
